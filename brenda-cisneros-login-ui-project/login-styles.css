@@ -13,17 +13,29 @@ body{
     height: 100vh;
     width:100vw;
 
-    border: 5px solid blue;
+    border: 5px solid rgb(232, 232, 244);
     box-sizing: border-box;
 }
 
 .login-card{
     height: 200px;
-    width:200px;
+    width: 300px;
 
-    border: 5px solid red;
+    border: 5px solid rgb(255, 255, 255);
     box-sizing: border-box;
-    padding: 5px;
+   
+    padding: 20px;
     border-radius: 10px;
+    box-shadow: 1px 1px 17px 4px rgba(0,0,0,0.55);
     
+}
+
+.login-card input {
+    background: pink;
+
+}
+
+.login-card button{
+    background: rgb(92, 141, 246)
+
 }
