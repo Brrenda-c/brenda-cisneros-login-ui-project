@@ -28,14 +28,18 @@ body{
     box-shadow: 1px 1px 17px 4px rgba(0,0,0,0.55);
     
     text-align: center;
-    font-family: sans-serif;
+    
 }
 
 .login-card input {
-    
+    height: 20px;
+
+    width: 50%;
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
+margin: 10px;
+color: black;
 
 }
 
@@ -46,4 +50,15 @@ body{
  border: none;
  border-radius: 10px;
  
+ cursor: pointer;
+ color: white;
+}
+.sign-in button::hover {
+    background-color: blue;
+
+
+}
+
+.sign-in:hover{
+    background-color: blue;
 }
